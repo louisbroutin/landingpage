@@ -1,0 +1,58 @@
+body {
+	font-family: 'Be Vietnam', sans-serif;
+}
+
+a { 
+	text-decoration: none;
+	color: yellow;
+	background-color: blue;
+	padding: 20px;
+	border-radius: 50px;
+}
+
+h2 {
+	color : blue;
+	font-size: 24px
+}
+
+.banner{
+	text-align: center;
+	background-image: url(https://picsum.photos/200/300);
+	height: 450px;
+	background-size: cover;
+	padding-top: 150px;
+}
+
+.container{
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+
+
+}
+
+.link {
+	display: flex;
+	text-align: center;
+	text-decoration: none;
+	color: white
+	background-color: blue;
+	padding: 10px;
+	border-radius: 50px;
+
+}
+
+.card{
+	background-color: white;
+	text-align: center;
+	height: 260px;
+	width: 250px;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	}
